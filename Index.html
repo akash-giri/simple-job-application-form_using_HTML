@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Job Application form</title>
+        <link rel = "stylesheet" type = "text/css" href = "style.css" />
+    </head>
+    <body>
+        <h1>Job Application Form</h1>
+        <h3>Please complete the form below to apply for a position with us.</h3>
+        <hr/>
+        <form  >
+            <table border="0" cellpadding="5" cellspacing="0" align="center">
+            <tr>
+            <td style="width:50%">
+            <b>First name *</b><br />
+            <input name="First_Name" type="text" maxlength="50" style="width:260px"required />
+            </td>
+            <td style="width:50%">
+            <b>Last name *</b><br />
+            <input name="Last_Name" type="text" maxlength="50" style="width:260px" required />
+            </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                <b>Current Address *</b><br />
+                <input name="Current_Address" type="text" maxlength="100" style="width:535px" required/>
+                </td>
+            </tr>
+            <tr>
+                <td style="width:50%">
+                <b>City *</b><br />
+                <input name="City" type="text" maxlength="50" style="width:260px" required />
+                </td>
+                <td style="width:50%">
+                <b>State *</b><br />
+                <input name="State" type="text" maxlength="50" style="width:260px" required/>
+                </td>
+            </tr>
+            <tr>
+                <td style="width:50%">
+                <b>Postal/Zip Code *</b><br />
+                <input name="Zip code" type="text" maxlength="50" style="width:260px" required/>
+                </td>
+                <td style="width:50%">
+                <b>Country*</b>
+                <select name="country">
+                    <option value="">Please Select.. </option>
+                    <option value="Afganistan">Afghanistan</option>
+                    <option value="American Samoa">American Samoa</option>
+                    <option value="Germany">Germany</option>
+                    <option value="India">India</option>
+                    <option value="Swaziland">Swaziland</option>
+                    <option value="Sweden">Sweden</option>
+                    <option value="Switzerland">Switzerland</option>
+                    <option value="United Kingdom">United Kingdom</option>
+                    <option value="United States of America">United States of America</option>
+                    </select>
+                </td>
+            </tr>
+            
+            <td colspan="2">
+            <b>Email *</b><br />
+            <input name="Email_Address" type="text" maxlength="100" style="width:535px" required/>
+            </td>
+            </tr>
+            <tr>
+            <td colspan="2">
+            <b>Position you are applying for *</b><br />
+            <select name="Position">
+                    <option value="">Please Select.. </option>
+                    <option value="Afganistan">Trainee Technology</option>
+                    <option value="American Samoa">Intern</option>
+                    <option value="Germany">Software Developer</option>
+                    <option value="India">Human Resource</option>
+                    <option value="Swaziland">Database Administration</option>
+                    <option value="Sweden">Manager</option>
+                    <option value="Switzerland">Associate System Engineer</option>
+                    <option value="United Kingdom">Business Analyst</option>
+                    <option value="United States of America">Java Developer</option>
+            </select>
+            </td>
+            </tr>
+            <tr>
+            <td colspan="2">
+            <b>Salary requirements *</b><br />
+            <input name="Salary" type="text" maxlength="50" style="width:535px" required/>
+            </td>
+            
+            <tr>
+            <td colspan="2">
+            <b>Phone *</b><br />
+            <input name="Phone" type="text" maxlength="50" style="width:535px" required />
+            </td>
+            
+            </tr>
+            <tr>
+            <td colspan="2">
+            <b>Are you willing to relocate?</b><br />
+            <input name="Relocate" type="radio" value="Yes" checked="checked" /> Yes &nbsp; &nbsp; &nbsp;
+            <input name="Relocate" type="radio" value="No" /> No &nbsp; &nbsp; &nbsp;
+            <input name="Relocate" type="radio" value="NotSure" /> Not sure
+            </td>
+            </tr>
+            <tr>
+            <td colspan="2">
+                <label for="myfile">Upload Resume:</label>
+                <input type="file" id="myfile" name="myfile" required>
+            </td>
+            </tr>
+            <tr>
+                <td><input name="skip_Submit" type="submit" value="Submit" /></td>
+                </tr>
+            </table>   
+        </form>  
+    </body>
+</html>
